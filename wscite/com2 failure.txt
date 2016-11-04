@@ -1,0 +1,155 @@
+ScanForRS232Devices attempting to open: COM2
+OpenNewDevice on COM2
+OpenGenericDevice on COM2
+Communicator.Open: COM2
+OpenGenericDevice begin probe...
+OpenGenericDevice probe result: NotExcluded
+ReadReply: Empty First string from command: SYST:INF:USER? 7
+ScanForRS232Devices opened: DefaultModelName
+DeviceDetector.Connect: MASTER DefaultModelName on COM2
+DeviceList_DeviceConnected:Controller DefaultModelName
+Primary Controller Connected: DefaultModelName
+LaunchRemoteConnectionMonitors...
+StatusChanged: 00000000 -> c0000000  COM2  Controller: DefaultModelName
+Remote.COM5: Begin Monitoring <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Remote.COM3: Begin Monitoring <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+SH_WNET API is ready after 0 ms
+SH_COMM API is ready after 0 ms
+Starting TCP Services...
+host: 6LSR, 6LSR
+aliases:
+    Addr: InterNetworkV6 fe80::51f0:e2e5:c383:df63%2, bytes: fe8000000000000051f0e2e5c383df63
+    Addr: InterNetwork 10.68.3.147, bytes: 0a440393
+TCPIP_ScreenCaptureServerServer listening on 10.68.3.147 port 13002
+TCPIP_ScreenCaptureServerServer Waiting for a connection...
+TCPIP_RemoteCommandServerServer listening on 10.68.3.147 port 13000
+TCPIP_RemoteCommandServerServer Waiting for a connection...
+StatusChanged: c0000000 -> c8000000  COM2  Controller: DefaultModelName
+Controller Enum: 00 -> 01
+Controller found: OBIS 522 on COM2:1
+ReadReply: Empty First string from command: SYST1:COMM:HAND On
+ReadReply: Empty First string from command: SYST1:COMM:PROM Off
+ReadReply: Empty First string from command: SYST1:ERR:CLE
+PreviousEnumeration: 01
+StatusChanged: 00000000 -> 00001100  COM2:1  Laser: OBIS 522
+StatusChanged: c8000000 -> c8001180  COM2  Controller: DefaultModelName
+Controller Enum: 01 -> 3f
+Controller found: 640-100C on COM2:2
+PreviousEnumeration: 03
+StatusChanged: 00000000 -> 00000180  COM2:2  Laser: 640-100C
+Controller found: 405-100C on COM2:3
+PreviousEnumeration: 07
+StatusChanged: 00000000 -> 00001180  COM2:3  Laser: 405-100C
+Controller found: 405-100C on COM2:4
+PreviousEnumeration: 0f
+Controller found: LX 640-100C on COM2:5
+PreviousEnumeration: 1f
+Controller found: 640-100C on COM2:6
+PreviousEnumeration: 3f
+StatusChanged: 00000000 -> 00001180  COM2:5  Laser: LX 640-100C
+StatusChanged: 00000000 -> 00000180  COM2:6  Laser: 640-100C
+Keyboard at: 23,139 433x133 (456,272)
+Keyboard at: 140,20 199x133 (339,153)
+Keyboard at: 140,20 199x133 (339,153)
+Keyboard at: 23,139 433x133 (456,272)
+Keyboard at: 140,20 199x133 (339,153)
+StatusChanged: c8001180 -> c8001188  COM2  Controller: DefaultModelName
+StatusChanged: 00001180 -> 00001088  COM2:5  Laser: LX 640-100C
+Keyboard at: 23,139 433x133 (456,272)
+
+A first chance exception of type 'System.IO.IOException' occurred in mscorlib.dll
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+SendAndReceive: Timeout 7314.41ms cmd="SYST:STAT?" state=1 First="" Second=""
+A first chance exception of type 'System.TimeoutException' occurred in ConnectionLibrary.dll
+Exception during watchdog thread: SendAndReceive: Timeout 7314.41ms cmd="SYST:STAT?" state=1 First="" Second=""
+Disconnecting DefaultModelName
+DisconnectThisDevice: MASTER DefaultModelName on COM2
+
+StatusChanged: 00001100 -> 00001008  COM2:1  Laser: OBIS 522
+StatusChanged: 00000180 -> 00000088  COM2:2  Laser: 640-100C
+StatusChanged: 00001180 -> 00001088  COM2:4  Laser: 405-100C
+StatusChanged: 00000180 -> 00000088  COM2:6  Laser: 640-100C
+Thread MASTER on COM2: Join failed
+
+ScanForRS232Devices: Primary Controller was closed; attempting re-open
+DeviceList after disconnect:
+    LS OBIS 522 on COM2:1
+    LX 640-100C on COM2:2
+    LX 405-100C on COM2:3
+    LX 405-100C on COM2:4
+    LX LX 640-100C on COM2:5
+    LX 640-100C on COM2:6
+
+DeviceList_DeviceDisconnected:Controller DefaultModelName
+Primary Controller Disconnected: DefaultModelName
+DeviceDetector removing inactive: MASTER DefaultModelName on COM2
+
+ScanForRS232Devices attempting to open: COM2
+OpenNewDevice on COM2
+OpenGenericDevice on COM2
+A first chance exception of type 'System.IO.IOException' occurred in System.dll
+OpenDeviceComm exception: IOException
+ScanForRS232Devices unable to open: COM2
+StatusChanged: 00001180 -> 00001088  COM2:3  Laser: 405-100C
+ScanForRS232Devices attempting to open: COM2
+OpenNewDevice on COM2
+OpenGenericDevice on COM2
+A first chance exception of type 'System.IO.IOException' occurred in System.dll
+OpenDeviceComm exception: IOException
+ScanForRS232Devices unable to open: COM2
+Thread MASTER on COM2: Join failed
+ScanForRS232Devices: Primary Controller was closed; attempting re-open
+Keyboard at: 140,20 199x133 (339,153)
+ScanForRS232Devices attempting to open: COM2
+OpenNewDevice on COM2
+OpenGenericDevice on COM2
+A first chance exception of type 'System.IO.IOException' occurred in System.dll
+OpenDeviceComm exception: IOException
+ScanForRS232Devices unable to open: COM2
+DisconnectConnectedDevice: LS OBIS 522 on COM2:1
+ScanForRS232Devices attempting to open: COM2
+OpenNewDevice on COM2
+OpenGenericDevice on COM2
+A first chance exception of type 'System.IO.IOException' occurred in System.dll
+OpenDeviceComm exception: IOException
+ScanForRS232Devices unable to open: COM2
+DeviceList after disconnect:
+    LX 640-100C on COM2:2
+    LX 405-100C on COM2:3
+    LX 405-100C on COM2:4
+    LX LX 640-100C on COM2:5
+    LX 640-100C on COM2:6
+DisconnectConnectedDevice: LX 640-100C on COM2:2
+DeviceList_DeviceDisconnected:Laser OBIS 522
+DeviceList after disconnect:
+    LX 405-100C on COM2:3
+    LX 405-100C on COM2:4
+    LX LX 640-100C on COM2:5
+    LX 640-100C on COM2:6
+DisconnectConnectedDevice: LX 405-100C on COM2:3
+DeviceList after disconnect:
+    LX 405-100C on COM2:4
+    LX LX 640-100C on COM2:5
+    LX 640-100C on COM2:6
+DisconnectConnectedDevice: LX 405-100C on COM2:4
+DeviceList_DeviceDisconnected:Laser 640-100C
+DeviceList_DeviceDisconnected:Laser 405-100C
+DeviceList after disconnect:
+    LX LX 640-100C on COM2:5
+    LX 640-100C on COM2:6
+DisconnectConnectedDevice: LX LX 640-100C on COM2:5
+DeviceList_DeviceDisconnected:Laser 405-100C
+DeviceList after disconnect:
+    LX 640-100C on COM2:6
+DisconnectConnectedDevice: LX 640-100C on COM2:6
+DeviceList_DeviceDisconnected:Laser LX 640-100C
+DeviceList after disconnect:
+DeviceList_DeviceDisconnected:Laser 640-100C
+ScanForRS232Devices attempting to open: COM2
+OpenNewDevice on COM2
+OpenGenericDevice on COM2
+A first chance exception of type 'System.IO.IOException' occurred in System.dll
+OpenDeviceComm exception: IOException
+ScanForRS232Devices unable to open: COM2
+ScanForRS232Devices attempting to open: COM2

@@ -1,0 +1,188 @@
+Step into: Stepping over method without symbols 'RibbonWindow.App.App'
+loading window geometry: 765,240,601,329
+ServiceMonitor listening on port 13003
+Broadcasting Hoosier...
+Listening on 10.68.3.141:13003
+Received from 10.68.3.30:49152... Howdy 6LSR-0001
+ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+TCP_Detector: remotes AfterActivate
+    6LSR-0001 10.68.3.30
+TCP_Detector.ScanForNewDevices
+OpenNewDevice on COM19
+OpenNewDevice on COM19
+OpenGenericDevice on COM19
+OpenGenericDevice on COM19
+USBCommunicator.Open COM19
+USBCommunicator.Open COM19
+SerialCommunicator.Open COM19
+SerialCommunicator.Open COM19
+Communicator.Open: COM19
+Communicator.Open: COM19
+A first chance exception of type 'System.UnauthorizedAccessException' occurred in System.dll
+OpenDeviceComm exception: Access to the port 'COM19' is denied.
+TCP_Detector.ScanForDevices
+Broadcasting Hoosier...
+Ignoring loopback
+Received from 10.68.3.30:49152... Howdy 6LSR-0001
+ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+TCP_Detector: remotes AfterActivate
+    6LSR-0001 10.68.3.30
+TCP_Detector.ScanForNewDevices
+SubCommunicator.Open COM19
+OpenGenericDevice begin probe...
+OpenGenericDevice probe result: NotExcluded
+SubCommunicator.Open COM19
+LoadCacheAndLaunchPollingThread for Bronze
+SubCommunicator.Close COM19
+DeviceDetector.Connect: MASTER Bronze on COM19
+TCP_Detector.ScanForDevices
+Broadcasting Hoosier...
+Ignoring loopback
+DeviceList_DeviceConnected Bronze
+Received from 10.68.3.30:49152... Howdy 6LSR-0001
+ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+TCP_Detector: remotes AfterActivate
+    6LSR-0001 10.68.3.30
+TCP_Detector.ScanForNewDevices
+Controller Enum: 00 -> 27
+Found Subdevice: LS-488 on COM19:1
+SubCommunicator.Open COM19
+LoadCacheAndLaunchPollingThread for LS-488
+PreviousEnumeration: 01
+DeviceList_DeviceConnected LS-488
+Found Subdevice: 405-100C on COM19:2
+SubCommunicator.Open COM19
+LoadCacheAndLaunchPollingThread for 405-100C
+PreviousEnumeration: 03
+Found Subdevice: 640-100C on COM19:3
+SubCommunicator.Open COM19
+LoadCacheAndLaunchPollingThread for 640-100C
+PreviousEnumeration: 07
+DeviceList_DeviceConnected 405-100C
+A first chance exception of type 'System.Collections.Generic.KeyNotFoundException' occurred in mscorlib.dll
+Found Subdevice: LX 640-100 on COM19:6
+SubCommunicator.Open COM19
+LoadCacheAndLaunchPollingThread for LX 640-100
+PreviousEnumeration: 27
+DeviceList_DeviceConnected 640-100C
+A first chance exception of type 'System.Collections.Generic.KeyNotFoundException' occurred in mscorlib.dll
+DeviceList_DeviceConnected LX 640-100
+A first chance exception of type 'System.Collections.Generic.KeyNotFoundException' occurred in mscorlib.dll
+TCP_Detector.ScanForDevices
+Broadcasting Hoosier...
+Ignoring loopback
+Received from 10.68.3.30:49152... Howdy 6LSR-0001
+ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+TCP_Detector: remotes AfterActivate
+    6LSR-0001 10.68.3.30
+TCP_Detector.ScanForNewDevices
+CoherentDevice.RawReset LX 640-100 COM19:6   <<<<<<<<<<<<<<  RESET RESET RESET
+CoherentDevice.SuspendPollingThread: LX 640-100, Reset
+DisconnectThisDevice: LX LX 640-100 on COM19:6
+SubCommunicator.Close COM19
+DeviceList after disconnect:
+    MASTER Bronze on COM19
+    LS LS-488 on COM19:1
+    LX 405-100C on COM19:2
+    LX 640-100C on COM19:3
+PreviousEnumeration: 07
+DeviceList_DeviceDisconnected LX 640-100
+Thread LX on COM19:6: Exits
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+SendAndReceive: Timeout 3219.01ms cmd="SYST:STAT?" state=1 First="" Second=""
+12:37:15.403 COM19: Warn: MASTER on COM19: SendAndReceive: Timeout 3219.01ms cmd="SYST:STAT?" state=1 First="" Second=""
+A first chance exception of type 'System.TimeoutException' occurred in CoherentConnectionLibrary.dll
+Exception during watchdog thread: SendAndReceive: Timeout 3219.01ms cmd="SYST:STAT?" state=1 First="" Second=""
+Disconnecting Bronze
+DisconnectThisDevice: MASTER Bronze on COM19
+SubCommunicator.Close COM19
+SubCommunicator.Close COM19
+SubCommunicator.Close COM19
+SubCommunicator.Close COM19
+DeviceList after disconnect:
+    LS LS-488 on COM19:1
+    LX 405-100C on COM19:2
+    LX 640-100C on COM19:3
+SubCommunicator.Close COM19
+SubCommunicator.Close COM19
+SubCommunicator.Close COM19
+SubCommunicator.Close COM19
+DisconnectConnectedDevice: LS LS-488 on COM19:1
+DeviceList_DeviceDisconnected Bronze
+SubCommunicator.Close COM19
+DeviceList after disconnect:
+    LX 405-100C on COM19:2
+    LX 640-100C on COM19:3
+DisconnectConnectedDevice: LX 405-100C on COM19:2
+SubCommunicator.Close COM19
+DeviceList_DeviceDisconnected LS-488
+DeviceList after disconnect:
+    LX 640-100C on COM19:3
+DisconnectConnectedDevice: LX 640-100C on COM19:3
+SubCommunicator.Close COM19
+DeviceList after disconnect:
+DeviceList_DeviceDisconnected 405-100C
+DeviceList_DeviceDisconnected 640-100C
+DeviceDetector removing inactive: MASTER Bronze on COM19
+*** Inactive device was open: MASTER Bronze on COM19
+SubCommunicator.Close COM19
+SubCommunicator.Close COM19
+SubCommunicator.Close COM19
+SubCommunicator.Close COM19
+OpenNewDevice on COM19
+OpenGenericDevice on COM19
+USBCommunicator.Open COM19
+SerialCommunicator.Open COM19
+Communicator.Open: COM19
+A first chance exception of type 'System.UnauthorizedAccessException' occurred in System.dll
+OpenDeviceComm exception: Access to the port 'COM19' is denied.
+TCP_Detector.ScanForDevices
+Broadcasting Hoosier...
+Ignoring loopback
+Received from 10.68.3.30:49152... Howdy 6LSR-0001
+ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+TCP_Detector: remotes AfterActivate
+    6LSR-0001 10.68.3.30
+TCP_Detector.ScanForNewDevices
+Controller Enum: 07 -> 27
+Found Subdevice: LX 640-100 on COM19:6
+SubCommunicator.Open COM19
+LoadCacheAndLaunchPollingThread for LX 640-100
+PreviousEnumeration: 27
+DeviceList_DeviceConnected LX 640-100
+A first chance exception of type 'System.Collections.Generic.KeyNotFoundException' occurred in mscorlib.dll
+Thread LX on COM19:3: Exits
+Thread LX on COM19:2: Exits
+Thread LS on COM19:1: Exits
+Thread MASTER on COM19: Exits
+OpenNewDevice on COM19
+OpenGenericDevice on COM19
+USBCommunicator.Open COM19
+SerialCommunicator.Open COM19
+Communicator.Open: COM19
+A first chance exception of type 'System.UnauthorizedAccessException' occurred in System.dll
+OpenDeviceComm exception: Access to the port 'COM19' is denied.
+TCP_Detector.ScanForDevices
+Broadcasting Hoosier...
+Ignoring loopback
+Received from 10.68.3.30:49152... Howdy 6LSR-0001
+ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+TCP_Detector: remotes AfterActivate
+    6LSR-0001 10.68.3.30
+TCP_Detector.ScanForNewDevices
+OpenNewDevice on COM19
+OpenGenericDevice on COM19
+USBCommunicator.Open COM19
+SerialCommunicator.Open COM19
+Communicator.Open: COM19
+A first chance exception of type 'System.UnauthorizedAccessException' occurred in System.dll
+OpenDeviceComm exception: Access to the port 'COM19' is denied.
+TCP_Detector.ScanForDevices
+Broadcasting Hoosier...
+Ignoring loopback
+Received from 10.68.3.30:49152... Howdy 6LSR-0001
+ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+TCP_Detector: remotes AfterActivate
+    6LSR-0001 10.68.3.30
+TCP_Detector.ScanForNewDevices

@@ -1,0 +1,135 @@
+Step into: Stepping over method without symbols 'RibbonWindow.App.App'
+loading window geometry: 1098,275,601,329
+ServiceMonitor listening on port 13003
+	Broadcasting Hoosier...
+Listening on 10.68.3.141:13003
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+TCP_Detector.ScanForDevices attempting connection: 6LSR-0001
+
+OpenNewDevice on 6LSR-0001
+OpenGenericDevice on 6LSR-0001
+TCP_Communicator.Open: 6LSR-0001
+Device.Open: 6LSR-0001
+SubCommunicator.Open 6LSR-0001
+OpenGenericDevice begin probe...
+OpenGenericDevice probe result: NotExcluded
+Device.GetSpecficDeviceObject: typeName = MASTER on: 6LSR-0001
+Controller.Open: 6LSR-0001
+Device.Open: 6LSR-0001
+SubCommunicator.Open 6LSR-0001
+LoadCacheAndLaunchPollingThread for Bronze
+Device.Close: 6LSR-0001
+SubCommunicator.Close 6LSR-0001
+
+DeviceDetector.Connect: MASTER Bronze on 6LSR-0001 <<<<<<<<<<<<<<<<<<<
+
+	DeviceList after Connect:
+		MASTER Bronze on 6LSR-0001
+TCP_Detector.ScanForDevices connected: 6LSR-0001
+
+Controller Enum: 00 -> 27 ::::::::::::::::::::::::::::::::::::::
+Device.GetSpecficDeviceObject: typeName = LS on: 6LSR-0001:1
+
+Found Subdevice: LS-488 on 6LSR-0001:1 <<<<<<<<<<<<<<<<<<<<<<
+Laser.Open: 6LSR-0001:1
+Device.Open: 6LSR-0001:1
+SubCommunicator.Open 6LSR-0001:1
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+LoadCacheAndLaunchPollingThread for LS-488
+	DeviceList after Connect:
+		MASTER Bronze on 6LSR-0001
+		LS LS-488 on 6LSR-0001:1
+Device.GetSpecficDeviceObject: typeName = LX on: 6LSR-0001:2
+
+Found Subdevice: 405-100C on 6LSR-0001:2 <<<<<<<<<<<<<<<<<<<<<<
+LX_Laser.Open: 6LSR-0001:2
+Laser.Open: 6LSR-0001:2
+Device.Open: 6LSR-0001:2
+SubCommunicator.Open 6LSR-0001:2
+LoadCacheAndLaunchPollingThread for 405-100C
+	DeviceList after Connect:
+		MASTER Bronze on 6LSR-0001
+		LS LS-488 on 6LSR-0001:1
+		LX 405-100C on 6LSR-0001:2
+Device.GetSpecficDeviceObject: typeName = LX on: 6LSR-0001:3
+
+Found Subdevice: 640-100C on 6LSR-0001:3 <<<<<<<<<<<<<<<<<<<<<<
+LX_Laser.Open: 6LSR-0001:3
+Laser.Open: 6LSR-0001:3
+Device.Open: 6LSR-0001:3
+SubCommunicator.Open 6LSR-0001:3
+LoadCacheAndLaunchPollingThread for 640-100C
+	DeviceList after Connect:
+		MASTER Bronze on 6LSR-0001
+		LS LS-488 on 6LSR-0001:1
+		LX 405-100C on 6LSR-0001:2
+		LX 640-100C on 6LSR-0001:3
+Device.GetSpecficDeviceObject: typeName = LX on: 6LSR-0001:6
+
+Found Subdevice: LX 640-100 on 6LSR-0001:6 <<<<<<<<<<<<<<<<<<<<<<
+LX_Laser.Open: 6LSR-0001:6
+Laser.Open: 6LSR-0001:6
+Device.Open: 6LSR-0001:6
+SubCommunicator.Open 6LSR-0001:6
+LoadCacheAndLaunchPollingThread for LX 640-100
+	DeviceList after Connect:
+		MASTER Bronze on 6LSR-0001
+		LS LS-488 on 6LSR-0001:1
+		LX 405-100C on 6LSR-0001:2
+		LX 640-100C on 6LSR-0001:3
+		LX LX 640-100 on 6LSR-0001:6
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+EditExclusionList_Click: False
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+CoherentDevice.RawReset LX 640-100 6LSR-0001:6   <<<<<<<<<<<<<<  RESET RESET RESET
+
+Device.SuspendPollingThread: LX 640-100, Reset
+Device.DisconnectThisDevice: LX LX 640-100 on 6LSR-0001:6
+LX_Laser.Close: 6LSR-0001:6
+Device.Close: 6LSR-0001:6
+SubCommunicator.Close 6LSR-0001:6
+	DeviceList after Disconnect:
+		MASTER Bronze on 6LSR-0001
+		LS LS-488 on 6LSR-0001:1
+		LX 405-100C on 6LSR-0001:2
+		LX 640-100C on 6LSR-0001:3
+
+Controller Enum: 07 -> 440 ::::::::::::::::::::::::::::::::::::::

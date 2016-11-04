@@ -1,0 +1,32 @@
+Remote.COM5: Begin Monitoring \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+OpenGenericRS232Device begin probe...
+FindCommPort Dev ID: COHERENT, INC. - DEFAULTMODELNAME - V0.0.2 - 20120724
+FindCommPort Dev Type: MULTI
+OpenGenericRS232Device probe result: NotExcluded
+GetSpecficDeviceObject on: COM2
+PowerNotification: Message = Status State = 00000000
+DeviceList_DeviceConnected:Controller DefaultModelName
+controller_StatusChanged: DefaultModelName c8001086
+GetSpecficDeviceObject on: COM2:5
+A first chance exception of type 'System.IO.IOException' occurred in mscorlib.dll
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+Warn: SendAndReceive: Timeout 3225.66ms cmd="SYST5:INF:USER? 7" state=1 First="" Second=""
+A first chance exception of type 'System.Exception' occurred in ConnectionLibrary.dll
+Exception during watchdog thread: SendAndReceive: Timeout 3225.66ms cmd="SYST5:INF:USER? 7" state=1 First="" Second=""
+>>>>>>>>>>>>>>
+   at ConnectionLibrary.Communicator.ReadLine()
+   at ConnectionLibrary.Communicator.ReadReply()
+   at ConnectionLibrary.Communicator.SendAndReceive(String format, Object[] args)
+   at ConnectionLibrary.Communicator.SendAndReceive(Int32 timeout, String format, Object[] args)
+   at ConnectionLibrary.Device.SendAndReceive(String format, Object[] args)
+   at ConnectionLibrary.Device.GetUserSetting(Int32 index)
+   at ConnectionLibrary.Device.get_Nickname()
+   at ConnectionLibrary.Device.ToString()
+   at ConnectionLibrary.Device.GetSpecficDeviceObject(DeviceDetector de
+Thread COM2.MULTI Join failed
+DeviceList after disconnect:
+DeviceList_DeviceDisconnected:Controller DefaultModelName
+Thread COM2.MULTI Join failed
+Communicator.CLOSED: COM2
+The program '[0xE81DEE] MasterController.exe: Managed' has exited with code 0 (0x0).

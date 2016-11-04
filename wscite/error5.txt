@@ -1,0 +1,32 @@
+AFTER CHANGING NAME, Startup....
+
+GetSpecficDeviceObject on: COM2:5
+A first chance exception of type 'System.IO.IOException' occurred in mscorlib.dll
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+Warn: SendAndReceive: Timeout 3227.33ms cmd="SYST5:INF:USER? 7" state=1 First="" Second=""
+A first chance exception of type 'System.Exception' occurred in ConnectionLibrary.dll
+Exception during watchdog thread: SendAndReceive: Timeout 3227.33ms cmd="SYST5:INF:USER? 7" state=1 First="" Second=""
+>>>>>>>>>>>>>>
+   at ConnectionLibrary.Communicator.ReadLine()
+   at ConnectionLibrary.Communicator.ReadReply()
+   at ConnectionLibrary.Communicator.SendAndReceive(String format, Object[] args)
+   at ConnectionLibrary.Communicator.SendAndReceive(Int32 timeout, String format, Object[] args)
+   at ConnectionLibrary.Device.SendAndReceive(String format, Object[] args)
+   at ConnectionLibrary.Device.GetUserSetting(Int32 index)
+   at ConnectionLibrary.Device.get_Nickname()
+   at ConnectionLibrary.Device.ToString()
+   at ConnectionLibrary.Device.GetSpecficDeviceObject(DeviceDetector de
+   A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+laser_StatusChanged LS 488-20 00000000
+laser_StatusChanged LS 488-20 00001008
+Thread COM2.MULTI Join failed
+
+DeviceList after disconnect: LX LX 785-50 on COM2:1,LS LS 488-20 on COM2:3
+DeviceList_DeviceDisconnected:Controller DefaultModelName
+Thread COM2.MULTI Join failed
+DeviceList after disconnect: LS LS 488-20 on COM2:3
+DeviceList_DeviceDisconnected:Laser LX 785-50
+Communicator.CLOSED: COM2
+DeviceList after disconnect:
+DeviceList_DeviceDisconnected:Laser LS 488-20

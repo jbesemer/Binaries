@@ -1,0 +1,57 @@
+ ::: CONTROLLER :::
+
+Unable to Get Address for GetNumberOfComponents
+Unable to Get Address for GetComponentName
+Opening: \\.\COM30
+Handle == 00000038
+PortHandle opened successfully: 00000038
+Returning Context address: 0041cdf8
+Sending: SYST:COMM:HAND ON\r\n
+
+getChar: O
+getChar: K
+getChar: \n
+
+
+::: LASER :::
+
+Unable to Get Address for GetNumberOfComponents
+Unable to Get Address for GetComponentName
+Opening: \\.\COM30
+Handle == 00000038
+PortHandle opened successfully: 00000038
+Returning Context address: 005fcdf8
+Sending: SYST:COMM:HAND ON\r\n
+
+getChar: O
+getChar: K
+getChar: \r
+Readline: OK
+Sending: SYST:COMM:PROM OFF\r\n
+
+getChar: \n
+getChar: O
+getChar: K
+getChar: \r
+Readline: OK
+Sending: SYST:INF:ENUM?\r\n
+
+getChar: \n
+getChar: E
+getChar: R
+getChar: R
+getChar: -
+getChar: 1
+getChar: 0
+getChar: 0
+getChar: \r
+Readline: ERR-100
+
+
+
+
+
+
+
+
+

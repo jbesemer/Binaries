@@ -1,0 +1,444 @@
+Step into: Stepping over method without symbols 'RibbonWindow.App.App'
+loading window geometry: 1155,384,774,517
+ServiceMonitor listening on port 13003
+	Broadcasting Hoosier...
+Listening on 10.68.3.141:13003
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+
+OpenNewDevice on COM19
+OpenGenericDevice on COM19
+USBCommunicator.Open COM19
+SerialCommunicator.Open COM19
+Communicator.Open: COM19
+Device.Open: COM19
+SubCommunicator.Open COM19
+OpenGenericDevice begin probe...
+OpenGenericDevice probe result: NotExcluded
+Device.GetSpecficDeviceObject: typeName = MASTER on: COM19
+Controller.Open: COM19
+Device.Open: COM19
+SubCommunicator.Open COM19
+LoadCacheAndLaunchPollingThread for Bronze
+Device.Close: COM19
+SubCommunicator.Close COM19
+
+DeviceDetector.Connect: MASTER Bronze on COM19 <<<<<<<<<<<<<<<<<<<
+
+	DeviceList after Connect:
+		MASTER Bronze on COM19
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+Controller Enum: 00 -> 27 ::::::::::::::::::::::::::::::::::::::
+Device.GetSpecficDeviceObject: typeName = LS on: COM19:1
+
+Found Subdevice: LS-488 on COM19:1 <<<<<<<<<<<<<<<<<<<<<<
+Laser.Open: COM19:1
+Device.Open: COM19:1
+SubCommunicator.Open COM19:1
+LoadCacheAndLaunchPollingThread for LS-488
+	DeviceList after Connect:
+		MASTER Bronze on COM19
+		LS LS-488 on COM19:1
+Device.GetSpecficDeviceObject: typeName = LX on: COM19:2
+
+Found Subdevice: DDL on COM19:2 <<<<<<<<<<<<<<<<<<<<<<
+LX_Laser.Open: COM19:2
+Laser.Open: COM19:2
+Device.Open: COM19:2
+SubCommunicator.Open COM19:2
+LoadCacheAndLaunchPollingThread for DDL
+	DeviceList after Connect:
+		MASTER Bronze on COM19
+		LS LS-488 on COM19:1
+		LX DDL on COM19:2
+Device.GetSpecficDeviceObject: typeName = LX on: COM19:3
+
+Found Subdevice: 640-100C on COM19:3 <<<<<<<<<<<<<<<<<<<<<<
+LX_Laser.Open: COM19:3
+Laser.Open: COM19:3
+Device.Open: COM19:3
+SubCommunicator.Open COM19:3
+LoadCacheAndLaunchPollingThread for 640-100C
+	DeviceList after Connect:
+		MASTER Bronze on COM19
+		LS LS-488 on COM19:1
+		LX DDL on COM19:2
+		LX 640-100C on COM19:3
+Device.GetSpecficDeviceObject: typeName = LX on: COM19:6
+
+Found Subdevice: LX 640-100 on COM19:6 <<<<<<<<<<<<<<<<<<<<<<
+LX_Laser.Open: COM19:6
+Laser.Open: COM19:6
+Device.Open: COM19:6
+SubCommunicator.Open COM19:6
+LoadCacheAndLaunchPollingThread for LX 640-100
+	DeviceList after Connect:
+		MASTER Bronze on COM19
+		LS LS-488 on COM19:1
+		LX DDL on COM19:2
+		LX 640-100C on COM19:3
+		LX LX 640-100 on COM19:6
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+CoherentDevice.RawReset LX 640-100 COM19:6   <<<<<<<<<<<<<<  RESET RESET RESET
+
+Device.SuspendPollingThread: LX 640-100, Reset
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+SendAndReceive: Timeout 1247.37ms cmd="*RST6" state=1 First="" Second=""
+18:43:55.273 COM19: Warn: MainUI: SendAndReceive: Timeout 1247.37ms cmd="*RST6" state=1 First="" Second=""
+A first chance exception of type 'System.TimeoutException' occurred in CoherentConnectionLibrary.dll
+Device.DisconnectThisDevice: LX LX 640-100 on COM19:6
+LX_Laser.Close: COM19:6
+Device.Close: COM19:6
+SubCommunicator.Close COM19:6
+	DeviceList after Disconnect:
+		MASTER Bronze on COM19
+		LS LS-488 on COM19:1
+		LX DDL on COM19:2
+		LX 640-100C on COM19:3
+LX_Laser.Close: COM19:6
+Device.Close: COM19:6
+SubCommunicator.Close COM19:6
+SendAndReceive: Disconnecting during 'SYST3:STAT?' due to SendAndReceive: Timeout 1247.37ms cmd="*RST6" state=1 First="" Second=""
+SendAndReceive: Disconnecting during 'SYST3:STAT?' due to SendAndReceive: Timeout 1247.37ms cmd="*RST6" state=1 First="" Second=""
+Device.DisconnectThisDevice: LX LX 640-100 on COM19:6
+LX_Laser.Close: COM19:6
+Device.Close: COM19:6
+SubCommunicator.Close COM19:6
+	DeviceList after Disconnect:
+		MASTER Bronze on COM19
+		LS LS-488 on COM19:1
+		LX DDL on COM19:2
+		LX 640-100C on COM19:3
+A first chance exception of type 'System.Collections.Generic.KeyNotFoundException' occurred in mscorlib.dll
+ERR-SendAndReceive: Timeout 3209.41ms cmd="*RST6" state=1 First="" Second=""
+
+Controller Enum: 07 -> 00 ::::::::::::::::::::::::::::::::::::::
+SendAndReceive: Timeout 163023.80ms cmd="SOUR1:POW:CURR?" state=1 First="" Second=""
+18:46:40.570 COM19: Warn: MainUI: SendAndReceive: Timeout 163023.80ms cmd="SOUR1:POW:CURR?" state=1 First="" Second=""
+RefreshSummary Exception: SendAndReceive: Timeout 163023.80ms cmd="SOUR1:POW:CURR?" state=1 First="" Second=""
+Device.DisconnectThisDevice: LS LS-488 on COM19:1
+Device.Close: COM19:1
+SubCommunicator.Close COM19:1
+	DeviceList after Disconnect:
+		MASTER Bronze on COM19
+		LX DDL on COM19:2
+		LX 640-100C on COM19:3
+Device.Close: COM19:1
+SubCommunicator.Close COM19:1
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+A first chance exception of type 'System.TimeoutException' occurred in CoherentConnectionLibrary.dll
+Device.GetSpecficDeviceObject: typeName = LS on: COM19:1
+
+DeviceList.ScanForDevices
+
+Found Subdevice: LS-488 on COM19:1 <<<<<<<<<<<<<<<<<<<<<<
+Laser.Open: COM19:1
+Device.Open: COM19:1
+SubCommunicator.Open COM19:1
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+LoadCacheAndLaunchPollingThread for LS-488
+	DeviceList after Connect:
+		MASTER Bronze on COM19
+		LX DDL on COM19:2
+		LX 640-100C on COM19:3
+		LS LS-488 on COM19:1
+Device.GetSpecficDeviceObject: typeName = LX on: COM19:6
+
+Found Subdevice: LX 640-100 on COM19:6 <<<<<<<<<<<<<<<<<<<<<<
+LX_Laser.Open: COM19:6
+Laser.Open: COM19:6
+Device.Open: COM19:6
+SubCommunicator.Open COM19:6
+LoadCacheAndLaunchPollingThread for LX 640-100
+	DeviceList after Connect:
+		MASTER Bronze on COM19
+		LX DDL on COM19:2
+		LX 640-100C on COM19:3
+		LS LS-488 on COM19:1
+		LX LX 640-100 on COM19:6
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+SendAndReceive: Timeout 3221.21ms cmd="*rst6" state=1 First="" Second=""
+18:47:53.311 COM19: Warn: MainUI: SendAndReceive: Timeout 3221.21ms cmd="*rst6" state=1 First="" Second=""
+A first chance exception of type 'System.TimeoutException' occurred in CoherentConnectionLibrary.dll
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+A first chance exception of type 'System.TimeoutException' occurred in System.dll
+SendAndReceive: Timeout 3215.41ms cmd="SYST6:STAT?" state=1 First="" Second=""
+18:47:56.537 COM19: Warn: LX on COM19:6: SendAndReceive: Timeout 3215.41ms cmd="SYST6:STAT?" state=1 First="" Second=""
+A first chance exception of type 'System.TimeoutException' occurred in CoherentConnectionLibrary.dll
+Exception during watchdog thread: SendAndReceive: Timeout 3215.41ms cmd="SYST6:STAT?" state=1 First="" Second=""
+Disconnecting LX 640-100
+Device.DisconnectThisDevice: LX LX 640-100 on COM19:6
+LX_Laser.Close: COM19:6
+Device.Close: COM19:6
+SubCommunicator.Close COM19:6
+	DeviceList after Disconnect:
+		MASTER Bronze on COM19
+		LX DDL on COM19:2
+		LX 640-100C on COM19:3
+		LS LS-488 on COM19:1
+LX_Laser.Close: COM19:6
+Device.Close: COM19:6
+SubCommunicator.Close COM19:6
+
+Controller Enum: 07 -> 3f0 ::::::::::::::::::::::::::::::::::::::
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+Device.Close: COM19:1
+SubCommunicator.Close COM19:1
+	DeviceList after Disconnect:
+		MASTER Bronze on COM19
+		LX DDL on COM19:2
+		LX 640-100C on COM19:3
+LX_Laser.Close: COM19:2
+Device.Close: COM19:2
+SubCommunicator.Close COM19:2
+	DeviceList after Disconnect:
+		MASTER Bronze on COM19
+		LX 640-100C on COM19:3
+LX_Laser.Close: COM19:3
+Device.Close: COM19:3
+SubCommunicator.Close COM19:3
+	DeviceList after Disconnect:
+		MASTER Bronze on COM19
+
+Controller Enum: 00 -> 27 ::::::::::::::::::::::::::::::::::::::
+Device.GetSpecficDeviceObject: typeName = LS on: COM19:1
+
+Found Subdevice: LS-488 on COM19:1 <<<<<<<<<<<<<<<<<<<<<<
+Laser.Open: COM19:1
+Device.Open: COM19:1
+SubCommunicator.Open COM19:1
+LoadCacheAndLaunchPollingThread for LS-488
+	DeviceList after Connect:
+		MASTER Bronze on COM19
+		LS LS-488 on COM19:1
+Device.GetSpecficDeviceObject: typeName = LX on: COM19:2
+
+Found Subdevice: DDL on COM19:2 <<<<<<<<<<<<<<<<<<<<<<
+LX_Laser.Open: COM19:2
+Laser.Open: COM19:2
+Device.Open: COM19:2
+SubCommunicator.Open COM19:2
+LoadCacheAndLaunchPollingThread for DDL
+	DeviceList after Connect:
+		MASTER Bronze on COM19
+		LS LS-488 on COM19:1
+		LX DDL on COM19:2
+Device.GetSpecficDeviceObject: typeName = LX on: COM19:3
+
+Found Subdevice: 640-100C on COM19:3 <<<<<<<<<<<<<<<<<<<<<<
+LX_Laser.Open: COM19:3
+Laser.Open: COM19:3
+Device.Open: COM19:3
+SubCommunicator.Open COM19:3
+LoadCacheAndLaunchPollingThread for 640-100C
+	DeviceList after Connect:
+		MASTER Bronze on COM19
+		LS LS-488 on COM19:1
+		LX DDL on COM19:2
+		LX 640-100C on COM19:3
+Device.GetSpecficDeviceObject: typeName = LX on: COM19:6
+
+Found Subdevice: LX 640-100 on COM19:6 <<<<<<<<<<<<<<<<<<<<<<
+LX_Laser.Open: COM19:6
+Laser.Open: COM19:6
+Device.Open: COM19:6
+SubCommunicator.Open COM19:6
+LoadCacheAndLaunchPollingThread for LX 640-100
+	DeviceList after Connect:
+		MASTER Bronze on COM19
+		LS LS-488 on COM19:1
+		LX DDL on COM19:2
+		LX 640-100C on COM19:3
+		LX LX 640-100 on COM19:6
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
+
+DeviceList.ScanForDevices
+	TCP_Detector.ScanForDevices
+	Broadcasting Hoosier...
+	Received from 10.68.3.30:49152... Howdy 6LSR-0001
+	ReceiveHoosierMessage: Howdy 6LSR-0001 from 10.68.3.30.49152
+	TCP_Detector: remotes AfterActivate
+		6LSR-0001 10.68.3.30
+	TCP_Detector.ScanForNewDevices
